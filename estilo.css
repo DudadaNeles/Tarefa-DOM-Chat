@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 75%;
+    height: 75%;
+    border: 1px solid #000
+}
+
+header{
+    background-color: grey;
+    border: 1px solid #000;
+}
+
+.historico{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mensagens{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mensagem{
+    width: 90%;
+    margin: 1rem;
+}
+
+.conteudo{
+    border: 1px solid #000
+}
+
+.butoes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caixinha{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid #000;
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.caixinha input{
+    width: 80%;
+    height: 100px;
+}
+
+.caixinha button{
+    margin-left: 1rem;
+}
+
